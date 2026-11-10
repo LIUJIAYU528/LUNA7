@@ -1,0 +1,22 @@
+/* Legible business guidance over both full pages and specification dialogs. */
+.guide-card{width:420px;padding:24px;max-height:calc(100dvh - 32px);overflow:auto;border:1px solid #c9ddd1;border-top:3px solid #367a67;background:#fff;box-shadow:0 18px 70px #102b2640}
+.guide-card .eyebrow{font-size:12px;letter-spacing:.3px;color:#46725d;line-height:1.7}
+.guide-card h2{font-size:21px;line-height:1.5;color:#173b35;margin:13px 0}
+.guide-card p{font-size:15px;line-height:1.85;color:#344b40;overflow-wrap:anywhere}
+.guide-card>small{font-size:12px;line-height:1.8;color:#62746b}
+.guide-actions .btn{font-size:14px;min-height:38px}
+.guide-progress{margin:18px 0}.guide-progress i.done{background:#367a67}
+.guide-in-modal .overlay{z-index:181}.guide-in-modal .modal{isolation:auto}
+.inline-guide-entry{display:flex;justify-content:flex-end;margin:0 22px 14px}
+.spec-guide-entry{display:flex;justify-content:flex-end;margin-bottom:12px}
+.role-control{display:flex;align-items:center;gap:8px;font-size:13px;color:#65736d;padding-left:12px;border-left:1px solid #dce4df;white-space:nowrap}
+.role-control select{font:inherit;font-size:14px;font-weight:600;padding:8px 26px 8px 10px;border:1px solid #c6d8ce;border-radius:7px;color:#173b35;background:#f7faf8;min-height:37px;max-width:145px}
+.role-control select:focus-visible{outline:2px solid #367a67;outline-offset:2px}.role-notice{padding:12px 16px;background:#fff8e9;border:1px solid #e4d4ad;color:#64512e;font-size:14px;border-radius:7px;margin-bottom:16px}
+body[data-role]:not([data-role="admin"]) [data-action="legacy"]{display:none}
+@media(max-width:720px){.role-control{padding-left:0;border:0;gap:3px}.role-control>span{display:none}.role-control select{max-width:121px;font-size:13px;min-height:34px;padding:6px 19px 6px 7px}.top-actions{gap:6px}.topbar .breadcrumbs{display:none}.top-actions .profile-copy{display:none}.topbar{justify-content:space-between}.role-notice{font-size:13px}}
+@media(max-width:720px){.top-actions>[data-action="guide"]{display:inline-flex!important;font-size:12px;padding:6px 8px;min-height:34px}.role-control select{max-width:108px}}
+@media(max-width:720px){.guide-card{padding:19px;max-height:calc(100dvh - 24px)}.guide-card h2{font-size:19px}.guide-card p{font-size:15px}.guide-actions{gap:8px}.guide-actions>div{gap:6px}.guide-actions .btn{font-size:13px;padding:8px 10px}.guide-card>small{font-size:12px}}
+
+.team-scope-note,.team-service-state{padding:20px 24px;margin-bottom:18px}.team-scope-note strong{font-size:18px;color:#173b35}.team-scope-note p,.team-scope-note>span{font-size:14px;line-height:1.8;color:#65736d}.team-scope-note p{margin:8px 0}.team-account-panel td{font-size:14px;padding:16px}.team-account-panel td .btn{margin:3px;white-space:nowrap}.team-write-state{padding:16px 22px;font-size:13px;border-top:1px solid #dce4df;color:#65736d}.team-status-filter{display:flex;align-items:center;gap:10px;font-size:14px}.team-status-filter select{padding:8px 12px;border:1px solid #c6d8ce;border-radius:6px;color:#173b35;background:white}
+
+#page-filters:empty{display:none}.luna-filters:has(.filter-search) .filter-search{min-width:250px;flex:1;max-width:460px}.luna-filters .filter-search input{width:100%}@media(max-width:720px){.luna-filters:has(.filter-search) .filter-search{min-width:0;max-width:none;flex-basis:100%}}
