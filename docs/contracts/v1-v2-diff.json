@@ -1,0 +1,4072 @@
+[
+  {
+    "id": "F001",
+    "title": "关于系统",
+    "page": "about/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F002",
+    "title": "活动入口与状态配置",
+    "page": "activity/activityConfig/activityConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "migrated",
+    "target": [
+      317
+    ],
+    "reason": "2.0统一活动目录及共享草稿发布，不能把旧分散配置页全部判为删除。",
+    "uiStatus": "已迁移"
+  },
+  {
+    "id": "F003",
+    "title": "活动入口与状态配置表单",
+    "page": "activity/activityConfig/activityConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F004",
+    "title": "活动日志",
+    "page": "activity/activityLog/activityLog.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      122
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F005",
+    "title": "活动日志表单",
+    "page": "activity/activityLog/activityLogForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F006",
+    "title": "活动统计",
+    "page": "activity/activityStatLog/activityStatLog.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F007",
+    "title": "活动统计表单",
+    "page": "activity/activityStatLog/activityStatLogForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F008",
+    "title": "代理活动",
+    "page": "activity/activityStatLog/agent.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F009",
+    "title": "代理活动统计",
+    "page": "activity/activityStatLog/agentStatLog.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F010",
+    "title": "投注返利统计",
+    "page": "activity/activityStatLog/betBack.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F011",
+    "title": "投注抽奖统计",
+    "page": "activity/activityStatLog/betLottery.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F012",
+    "title": "下载奖励统计",
+    "page": "activity/activityStatLog/downloadGift.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F013",
+    "title": "历史组件模拟推送",
+    "page": "activity/activityStatLog/historyComponentsFakePush.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F014",
+    "title": "邀请转盘统计",
+    "page": "activity/activityStatLog/inviteSpin.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F015",
+    "title": "邀请统计",
+    "page": "activity/activityStatLog/inviteStatLog.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F016",
+    "title": "幸运转盘统计",
+    "page": "activity/activityStatLog/luckySpinStat.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F017",
+    "title": "神秘宝箱统计",
+    "page": "activity/activityStatLog/mysteriousBox.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F018",
+    "title": "新手任务统计",
+    "page": "activity/activityStatLog/newbieTask.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F019",
+    "title": "充值返利统计",
+    "page": "activity/activityStatLog/rechargeBack.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F020",
+    "title": "每日充值奖励统计",
+    "page": "activity/activityStatLog/rechargeRewardDay.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F021",
+    "title": "每周充值奖励统计",
+    "page": "activity/activityStatLog/rechargeRewardWeek.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F022",
+    "title": "充值转盘奖励统计",
+    "page": "activity/activityStatLog/rechargeSpinReward.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F023",
+    "title": "红包雨统计",
+    "page": "activity/activityStatLog/redEnvelopeRainStat.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F024",
+    "title": "注册充值统计",
+    "page": "activity/activityStatLog/registerRecharge.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F025",
+    "title": "每日存钱统计",
+    "page": "activity/activityStatLog/saveMoneyDaily.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F026",
+    "title": "每周存钱统计",
+    "page": "activity/activityStatLog/saveMoneyWeekly.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F027",
+    "title": "签到统计",
+    "page": "activity/activityStatLog/sign.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F028",
+    "title": "超级VIP日统计",
+    "page": "activity/activityStatLog/superVipDay.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F029",
+    "title": "VIP统计",
+    "page": "activity/activityStatLog/vipStatLog.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F030",
+    "title": "代理佣金配置",
+    "page": "activity/agentCommissionConfig/agentCommissionConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F031",
+    "title": "代理活动配置",
+    "page": "activity/agentConfig/agentConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F032",
+    "title": "代理活动配置表单",
+    "page": "activity/agentConfig/agentConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F033",
+    "title": "投注活动配置",
+    "page": "activity/betConfig/betConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F034",
+    "title": "投注活动配置表单",
+    "page": "activity/betConfig/betConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F035",
+    "title": "投注抽奖配置",
+    "page": "activity/betLotteryConfig/betLotteryConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F036",
+    "title": "投注抽奖新奖励配置",
+    "page": "activity/betLotteryNewBonusConfig/betLotteryNewBonusConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F037",
+    "title": "投注抽奖新奖励配置表单",
+    "page": "activity/betLotteryNewBonusConfig/betLotteryNewBonusConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F038",
+    "title": "下载奖励配置",
+    "page": "activity/downloadGiftConfig/downloadGiftConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F039",
+    "title": "下载奖励配置表单",
+    "page": "activity/downloadGiftConfig/downloadGiftConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F040",
+    "title": "黄金矿工配置",
+    "page": "activity/goldenMinerConfig/goldenMinerConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F041",
+    "title": "黄金矿工配置表单",
+    "page": "activity/goldenMinerConfig/goldenMinerConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F042",
+    "title": "限时礼包配置",
+    "page": "activity/limitedTimeGiftConfig/limitedTimeGiftConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F043",
+    "title": "限时礼包配置表单",
+    "page": "activity/limitedTimeGiftConfig/limitedTimeGiftConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F044",
+    "title": "幸运转盘配置",
+    "page": "activity/luckySpinConfig/luckySpinConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F045",
+    "title": "新手任务配置",
+    "page": "activity/newbieTaskConfig/newbieTaskConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F046",
+    "title": "新手任务配置表单",
+    "page": "activity/newbieTaskConfig/newbieTaskConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F047",
+    "title": "充值返利配置",
+    "page": "activity/rechargeBackConfig/rechargeBackConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F048",
+    "title": "充值返利配置表单",
+    "page": "activity/rechargeBackConfig/rechargeBackConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F049",
+    "title": "每日充值奖励配置",
+    "page": "activity/rechargeRewardDayCofnig/rechargeRewardDayCofnig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F050",
+    "title": "每周充值奖励配置",
+    "page": "activity/rechargeRewardWeekCofnig/rechargeRewardWeekCofnig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F051",
+    "title": "红包雨配置",
+    "page": "activity/redEnvelopeRainConfig/redEnvelopeRainConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F052",
+    "title": "红包雨配置表单",
+    "page": "activity/redEnvelopeRainConfig/redEnvelopeRainConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F053",
+    "title": "注册充值配置",
+    "page": "activity/registerRechargeConfig/registerRechargeConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F054",
+    "title": "注册充值配置表单",
+    "page": "activity/registerRechargeConfig/registerRechargeConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F055",
+    "title": "存钱活动配置",
+    "page": "activity/savemoneyConfig/savemoneyConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F056",
+    "title": "存钱活动配置表单",
+    "page": "activity/savemoneyConfig/savemoneyConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F057",
+    "title": "活动时间配置",
+    "page": "activity/setTime/setTime.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      110
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F058",
+    "title": "活动时间配置表单",
+    "page": "activity/setTime/setTimeForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F059",
+    "title": "签到配置",
+    "page": "activity/signConfig/signConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "migrated",
+    "target": [
+      317
+    ],
+    "reason": "发布schema存在ActivitySignDayConfig；签到并入统一配置，旧参数兼容性仍待样本核对。",
+    "uiStatus": "已迁移"
+  },
+  {
+    "id": "F060",
+    "title": "签到配置表单",
+    "page": "activity/signConfig/signConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F061",
+    "title": "红包雨统计配置",
+    "page": "activity/statActivityRedenveloperain/statActivityRedenveloperain.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F062",
+    "title": "红包雨统计配置表单",
+    "page": "activity/statActivityRedenveloperain/statActivityRedenveloperainForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F063",
+    "title": "超级VIP日配置",
+    "page": "activity/superVipDayConfig/superVipDayConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F064",
+    "title": "超级VIP日配置表单",
+    "page": "activity/superVipDayConfig/superVipDayConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F065",
+    "title": "测试活动配置",
+    "page": "activity/testConfig/testConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F066",
+    "title": "测试活动配置表单",
+    "page": "activity/testConfig/testConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F067",
+    "title": "VIP配置",
+    "page": "activity/vipConfig/vipConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "migrated",
+    "target": [
+      317
+    ],
+    "reason": "发布schema存在VipUpgradeConfig；VIP并入统一配置，旧版本参数兼容性仍待核对。",
+    "uiStatus": "已迁移"
+  },
+  {
+    "id": "F068",
+    "title": "VIP配置表单",
+    "page": "activity/vipConfig/vipConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F069",
+    "title": "新版VIP配置",
+    "page": "activity/vipNewConfig/vipNewConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F070",
+    "title": "新版VIP配置表单",
+    "page": "activity/vipNewConfig/vipNewConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F071",
+    "title": "下级代理",
+    "page": "agent/agentAgentChild/agentAgentChild.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      57
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F072",
+    "title": "下级代理表单",
+    "page": "agent/agentAgentChild/agentAgentChildForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F073",
+    "title": "代理资料",
+    "page": "agent/agentAgentInfo/agentAgentInfo.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      42
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F074",
+    "title": "代理资料表单",
+    "page": "agent/agentAgentInfo/agentAgentInfoForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F075",
+    "title": "代理收益",
+    "page": "agent/agentAgentRevenue/agentAgentRevenue.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F076",
+    "title": "代理收益表单",
+    "page": "agent/agentAgentRevenue/agentAgentRevenueForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F077",
+    "title": "AI账号管理",
+    "page": "aiReview/aiAccount/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F078",
+    "title": "AI面板容器",
+    "page": "aiReview/components/AIPanelShell.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F079",
+    "title": "代码评审报告详情",
+    "page": "aiReview/components/CodeReviewReportDetailDrawer.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F080",
+    "title": "评审环境目录管理",
+    "page": "aiReview/components/ReviewEnvDirectoryManager.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F081",
+    "title": "代码评审报告中心",
+    "page": "aiReview/reportCenter/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F082",
+    "title": "评审环境配置",
+    "page": "aiReview/reviewEnvProfile/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F083",
+    "title": "评审规则字段",
+    "page": "aiReview/ruleCenter/components/RuleFormFields.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F084",
+    "title": "代码评审规则中心",
+    "page": "aiReview/ruleCenter/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F085",
+    "title": "节点重载",
+    "page": "component/reloadNode.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F086",
+    "title": "时间范围选择器",
+    "page": "component/timeRangePicker.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F087",
+    "title": "DashboardMetricCardPopover",
+    "page": "dashboard/components/DashboardMetricCardPopover.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F088",
+    "title": "横幅",
+    "page": "dashboard/components/banner.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F089",
+    "title": "指标卡片",
+    "page": "dashboard/components/card.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F090",
+    "title": "数量指标图",
+    "page": "dashboard/components/charts-content-numbers.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F091",
+    "title": "人数指标图",
+    "page": "dashboard/components/charts-people-numbers.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F092",
+    "title": "趋势图",
+    "page": "dashboard/components/charts.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F093",
+    "title": "公告",
+    "page": "dashboard/components/notice.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F094",
+    "title": "插件表格",
+    "page": "dashboard/components/pluginTable.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F095",
+    "title": "快捷入口",
+    "page": "dashboard/components/quickLinks.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F096",
+    "title": "概览表格",
+    "page": "dashboard/components/table.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F097",
+    "title": "知识入口",
+    "page": "dashboard/components/wiki.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F098",
+    "title": "经营数据总览",
+    "page": "dashboard/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      1
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F099",
+    "title": "错误页",
+    "page": "error/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F100",
+    "title": "重新加载",
+    "page": "error/reload.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F101",
+    "title": "断点续传示例",
+    "page": "example/breakpoint/breakpoint.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F102",
+    "title": "客户示例",
+    "page": "example/customer/customer.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F103",
+    "title": "示例模块",
+    "page": "example/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F104",
+    "title": "上传示例",
+    "page": "example/upload/upload.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F105",
+    "title": "游戏品牌管理",
+    "page": "game/brandList/brandList.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "migrated",
+    "target": [
+      132
+    ],
+    "reason": "路由明确将brandList迁往homeBrand。",
+    "uiStatus": "已迁移"
+  },
+  {
+    "id": "F106",
+    "title": "游戏品牌管理表单",
+    "page": "game/brandList/brandListForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F107",
+    "title": "品牌排序弹窗",
+    "page": "game/brandList/brandSortDialog.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F108",
+    "title": "品牌模板",
+    "page": "game/gameBrandTemplate/gameBrandTemplate.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F109",
+    "title": "热门游戏管理",
+    "page": "game/gameHotInfo/gameHotInfo.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "migrated",
+    "target": [
+      147
+    ],
+    "reason": "路由明确将gameHotInfo迁往homeFeaturedGame。",
+    "uiStatus": "已迁移"
+  },
+  {
+    "id": "F110",
+    "title": "游戏排序弹窗",
+    "page": "game/gameHotInfo/gameSortDialog.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F111",
+    "title": "游戏资料管理",
+    "page": "game/gameInfo/gameInfo.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "migrated",
+    "target": [
+      54
+    ],
+    "reason": "路由明确将gameInfo迁往gameCatalog。",
+    "uiStatus": "已迁移"
+  },
+  {
+    "id": "F112",
+    "title": "游戏资料管理表单",
+    "page": "game/gameInfo/gameInfoForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F113",
+    "title": "游戏列表模板",
+    "page": "game/gameListTemplate/gameListTemplate.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F114",
+    "title": "游戏列表模板表单",
+    "page": "game/gameListTemplate/gameListTemplateForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F115",
+    "title": "模板列表",
+    "page": "game/templateList/templateList.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "migrated",
+    "target": [
+      133
+    ],
+    "reason": "路由明确将templateList迁往gameProvider。",
+    "uiStatus": "已迁移"
+  },
+  {
+    "id": "F116",
+    "title": "模板列表表单",
+    "page": "game/templateList/templateListForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F117",
+    "title": "系统初始化",
+    "page": "init/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F118",
+    "title": "动态子菜单",
+    "page": "layout/aside/asideComponent/asyncSubmenu.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F119",
+    "title": "侧栏组件",
+    "page": "layout/aside/asideComponent/index.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F120",
+    "title": "菜单项",
+    "page": "layout/aside/asideComponent/menuItem.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F121",
+    "title": "组合导航模式",
+    "page": "layout/aside/combinationMode.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F122",
+    "title": "顶部导航模式",
+    "page": "layout/aside/headMode.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F123",
+    "title": "侧边导航",
+    "page": "layout/aside/index.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F124",
+    "title": "常规导航模式",
+    "page": "layout/aside/normalMode.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F125",
+    "title": "页头",
+    "page": "layout/header/index.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F126",
+    "title": "页头工具",
+    "page": "layout/header/tools.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F127",
+    "title": "后台布局",
+    "page": "layout/index.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F128",
+    "title": "全屏",
+    "page": "layout/screenfull/index.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F129",
+    "title": "菜单搜索",
+    "page": "layout/search/search.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F130",
+    "title": "设置",
+    "page": "layout/setting/index.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F131",
+    "title": "多标签页",
+    "page": "layout/tabs/index.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F132",
+    "title": "登录",
+    "page": "login/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F133",
+    "title": "基础运营设置",
+    "page": "operationalsetting/baseSetting/baseSetting.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      61
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F134",
+    "title": "基础运营设置表单",
+    "page": "operationalsetting/baseSetting/baseSettingForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F135",
+    "title": "登录账号一致性检查",
+    "page": "opsCheck/loginCheck/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      301
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F136",
+    "title": "在线监控",
+    "page": "opstool/onlineMonitor/onlineMonitor.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F137",
+    "title": "运维动作模板",
+    "page": "opstool/opsActionTemplate/opsActionTemplate.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F138",
+    "title": "主机管理",
+    "page": "opstool/opsHost/opsHost.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F139",
+    "title": "主机分组",
+    "page": "opstool/opsHostGroup/opsHostGroup.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F140",
+    "title": "主机监控",
+    "page": "opstool/opsHostMonitor/opsHostMonitor.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F141",
+    "title": "日志清理",
+    "page": "opstool/opsLogCleanup/opsLogCleanup.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F142",
+    "title": "日志监控",
+    "page": "opstool/opsLogMonitor/opsLogMonitor.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F143",
+    "title": "日志源",
+    "page": "opstool/opsLogSource/opsLogSource.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F144",
+    "title": "Pomelo服务管理",
+    "page": "opstool/opsPomelo/opsPomelo.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F145",
+    "title": "进程实例",
+    "page": "opstool/opsProcessInstance/opsProcessInstance.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F146",
+    "title": "Shell脚本",
+    "page": "opstool/opsShellScript/opsShellScript.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F147",
+    "title": "运维任务执行",
+    "page": "opstool/opsTaskExecution/opsTaskExecution.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F148",
+    "title": "运维任务模板",
+    "page": "opstool/opsTaskTemplate/opsTaskTemplate.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F149",
+    "title": "定时任务",
+    "page": "opstool/scheduleTask/scheduleTask.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F150",
+    "title": "服务器监控",
+    "page": "opstool/serverMonitor/serverMonitor.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F151",
+    "title": "任务日志",
+    "page": "opstool/taskLog/taskLog.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F152",
+    "title": "任务日志表单",
+    "page": "opstool/taskLog/taskLogForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F153",
+    "title": "任务管理",
+    "page": "opstool/taskManage/taskManage.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F154",
+    "title": "任务管理表单",
+    "page": "opstool/taskManage/taskManageForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F155",
+    "title": "任务服务器",
+    "page": "opstool/taskServer/taskServer.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F156",
+    "title": "任务服务器表单",
+    "page": "opstool/taskServer/taskServerForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F157",
+    "title": "任务服务器分组",
+    "page": "opstool/taskServerGroup/taskServerGroup.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F158",
+    "title": "任务服务器分组表单",
+    "page": "opstool/taskServerGroup/taskServerGroupForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F159",
+    "title": "银行资料解锁申请",
+    "page": "order/bankInfoUnlockRequest/bankInfoUnlockRequest.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F160",
+    "title": "订单关联用户概览",
+    "page": "order/components/OrderUserOverview.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F161",
+    "title": "异常充值订单",
+    "page": "order/exceptionRechargeOrder/exceptionRechargeOrder.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      59
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F162",
+    "title": "异常充值订单表单",
+    "page": "order/exceptionRechargeOrder/exceptionRechargeOrderForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F163",
+    "title": "充值订单",
+    "page": "order/orderRecharge/orderRecharge.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      58
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F164",
+    "title": "充值订单表单",
+    "page": "order/orderRecharge/orderRechargeForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F165",
+    "title": "支付渠道",
+    "page": "order/payChannel/payChannel.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F166",
+    "title": "支付渠道表单",
+    "page": "order/payChannel/payChannelForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F167",
+    "title": "支付类型开关",
+    "page": "order/payTypeSwitch/payTypeSwitch.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F168",
+    "title": "平台银行",
+    "page": "order/platformBank/platformBank.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F169",
+    "title": "平台银行表单",
+    "page": "order/platformBank/platformBankForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F170",
+    "title": "充值配置",
+    "page": "order/rechargeConfig/rechargeConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      63
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F171",
+    "title": "充值配置表单",
+    "page": "order/rechargeConfig/rechargeConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F172",
+    "title": "提现打码重置申请",
+    "page": "order/withdrawBetResetRequest/withdrawBetResetRequest.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F173",
+    "title": "提现配置",
+    "page": "order/withdrawConfig/withdrawConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      128
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F174",
+    "title": "提现配置表单",
+    "page": "order/withdrawConfig/withdrawConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F175",
+    "title": "提现订单审核弹窗",
+    "page": "order/withdrawOrder/WithdrawOrderReviewDialog.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F176",
+    "title": "提现订单",
+    "page": "order/withdrawOrder/withdrawOrder.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      60
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F177",
+    "title": "提现订单表单",
+    "page": "order/withdrawOrder/withdrawOrderForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F178",
+    "title": "个人中心",
+    "page": "person/person.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "hidden",
+    "target": [
+      10
+    ],
+    "reason": "2.0源码保留，但菜单配置隐藏；不可称为已删除。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F179",
+    "title": "国家节假日",
+    "page": "platforms/countryHoliday.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F180",
+    "title": "游戏接入平台",
+    "page": "platforms/gamePlatforms.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "migrated",
+    "target": [
+      102
+    ],
+    "reason": "路由明确将gamePlatforms迁往gameAvailability。",
+    "uiStatus": "已迁移"
+  },
+  {
+    "id": "F181",
+    "title": "通知管理",
+    "page": "platforms/notification/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      255
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F182",
+    "title": "设置",
+    "page": "platforms/notification/setting.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F183",
+    "title": "平台接入引导",
+    "page": "platforms/platformOnboarding/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F184",
+    "title": "平台运营开关",
+    "page": "platforms/platformOperationSwitch/platformOperationSwitch.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F185",
+    "title": "平台管理",
+    "page": "platforms/platforms.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      99
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F186",
+    "title": "平台系统配置",
+    "page": "platforms/platformsSystem.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "hidden",
+    "target": [
+      100
+    ],
+    "reason": "2.0源码保留，但菜单配置隐藏；不可称为已删除。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F187",
+    "title": "广告代理商",
+    "page": "pwa/adAgentList/adAgentList.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      289
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F188",
+    "title": "广告代理商表单",
+    "page": "pwa/adAgentList/adAgentListForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F189",
+    "title": "广告配置",
+    "page": "pwa/adConfig/adConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      123
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F190",
+    "title": "广告配置表单",
+    "page": "pwa/adConfig/adConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F191",
+    "title": "推广域名配置",
+    "page": "pwa/domainConfig/domainConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "hidden",
+    "target": [
+      125
+    ],
+    "reason": "2.0源码保留，但菜单配置隐藏；不可称为已删除。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F192",
+    "title": "推广域名配置表单",
+    "page": "pwa/domainConfig/domainConfigForm.vue",
+    "kind": "配套组件",
+    "placeholder": true,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F193",
+    "title": "用户来源管理",
+    "page": "pwa/originList/originList.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      134
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F194",
+    "title": "用户来源管理表单",
+    "page": "pwa/originList/originListForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F195",
+    "title": "日报",
+    "page": "report/dailyReport/dailyReport.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      145
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F196",
+    "title": "小时报",
+    "page": "report/hoursReport/hoursReport.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F197",
+    "title": "播报群组设置",
+    "page": "report/hoursReport/settingGroup.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F198",
+    "title": "小时播报设置",
+    "page": "report/hoursReport/settingHoursReport.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F199",
+    "title": "充值用户全局控制",
+    "page": "riskcontrol/ControlGlobalRechargeUser.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F200",
+    "title": "充值用户等级控制",
+    "page": "riskcontrol/ControlGlobalRechargeUserLevel.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F201",
+    "title": "充值用户评分控制",
+    "page": "riskcontrol/ControlGlobalRechargeUserScore.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F202",
+    "title": "充值用户评分等级控制",
+    "page": "riskcontrol/ControlGlobalRechargeUserScoreLevel.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F203",
+    "title": "全局强控",
+    "page": "riskcontrol/ControlGlobalSrtongControl.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F204",
+    "title": "全局盈亏控制",
+    "page": "riskcontrol/ControlGlobalWinLoss.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F205",
+    "title": "控制分组配置",
+    "page": "riskcontrol/ControlGroupCfg.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F206",
+    "title": "玩家控制",
+    "page": "riskcontrol/ControlPlayer.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F207",
+    "title": "高级玩家控制",
+    "page": "riskcontrol/ControlPlayerHgih.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F208",
+    "title": "首充留存",
+    "page": "riskcontrol/FirstRechargeRetention.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      137
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F209",
+    "title": "新版平台统计",
+    "page": "riskcontrol/NewStatPlatform.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      126
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F210",
+    "title": "剧本列表",
+    "page": "riskcontrol/ScriptList.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F211",
+    "title": "金额流水日志",
+    "page": "riskcontrol/amount_log.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      114
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F212",
+    "title": "预营收配置",
+    "page": "riskcontrol/basicSettings/PLC.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F213",
+    "title": "盈亏用户配置",
+    "page": "riskcontrol/basicSettings/PRC.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F214",
+    "title": "用户类型配置",
+    "page": "riskcontrol/basicSettings/UT.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F215",
+    "title": "权重修正配置",
+    "page": "riskcontrol/basicSettings/WC.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F216",
+    "title": "风控基础设置",
+    "page": "riskcontrol/basicSettings/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F217",
+    "title": "BUFF管理",
+    "page": "riskcontrol/buff.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "hidden",
+    "target": [
+      119
+    ],
+    "reason": "2.0源码保留，但菜单配置隐藏；不可称为已删除。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F218",
+    "title": "BUFF日志",
+    "page": "riskcontrol/buff_log.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      115
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F219",
+    "title": "日常BUFF配置",
+    "page": "riskcontrol/controlDailyBuffConfig.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F220",
+    "title": "风控实体选择弹窗",
+    "page": "riskcontrol/controlEvent/ControlEntitySelectDialog.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F221",
+    "title": "风控动作模板",
+    "page": "riskcontrol/controlEvent/ControlEventActionListPage.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F222",
+    "title": "风控算法模板",
+    "page": "riskcontrol/controlEvent/ControlEventAlgorithmListPage.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F223",
+    "title": "风控调用链路图",
+    "page": "riskcontrol/controlEvent/ControlEventChainMapPage.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F224",
+    "title": "风控条件模板",
+    "page": "riskcontrol/controlEvent/ControlEventConditionListPage.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F225",
+    "title": "风控表达式模板",
+    "page": "riskcontrol/controlEvent/ControlEventExpressionListPage.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F226",
+    "title": "风控事件列表",
+    "page": "riskcontrol/controlEvent/ControlEventListPage.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F227",
+    "title": "风控事件配置",
+    "page": "riskcontrol/controlEvent/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F228",
+    "title": "全局控制",
+    "page": "riskcontrol/controlGlobal.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      107
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F229",
+    "title": "全局登录控制",
+    "page": "riskcontrol/controlGlobalLogin.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F230",
+    "title": "全局登录控制配置",
+    "page": "riskcontrol/controlGlobalLoginCfg.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F231",
+    "title": "全局保护配置",
+    "page": "riskcontrol/controlGlobalProtection.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F232",
+    "title": "全局RTP控制",
+    "page": "riskcontrol/controlGlobalRTP.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F233",
+    "title": "全局RTP配置",
+    "page": "riskcontrol/controlGlobalRTPCfg.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      111
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F234",
+    "title": "游戏日统计",
+    "page": "riskcontrol/game_day_stat.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "hidden",
+    "target": [
+      116
+    ],
+    "reason": "2.0源码保留，但菜单配置隐藏；不可称为已删除。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F235",
+    "title": "游戏小时统计",
+    "page": "riskcontrol/game_hour_stat.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "hidden",
+    "target": [
+      117
+    ],
+    "reason": "2.0源码保留，但菜单配置隐藏；不可称为已删除。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F236",
+    "title": "游戏月统计",
+    "page": "riskcontrol/game_month_stat.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "hidden",
+    "target": [
+      118
+    ],
+    "reason": "2.0源码保留，但菜单配置隐藏；不可称为已删除。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F237",
+    "title": "游戏统计",
+    "page": "riskcontrol/game_stat.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      143
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F238",
+    "title": "玩家等级设定",
+    "page": "riskcontrol/loginControl/PlayerLevel.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F239",
+    "title": "玩家评分设定",
+    "page": "riskcontrol/loginControl/PlayerScore.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F240",
+    "title": "剧本选择",
+    "page": "riskcontrol/loginControl/ScirptSelect.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F241",
+    "title": "登录风控配置表单",
+    "page": "riskcontrol/loginControl/UpsertLogin.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F242",
+    "title": "登录风控",
+    "page": "riskcontrol/loginControl/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F243",
+    "title": "新版小时统计",
+    "page": "riskcontrol/new_hour_stat.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      124
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F244",
+    "title": "玩家游戏记录",
+    "page": "riskcontrol/player_play_game_log.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      113
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F245",
+    "title": "水池管理",
+    "page": "riskcontrol/pool.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F246",
+    "title": "水池配置",
+    "page": "riskcontrol/poolCfg.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F247",
+    "title": "水池日志",
+    "page": "riskcontrol/poolLog.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F248",
+    "title": "水池玩家配置",
+    "page": "riskcontrol/poolPlayerCfg.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F249",
+    "title": "水池RTP配置",
+    "page": "riskcontrol/poolRtpCfg.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F250",
+    "title": "玩家等级设定",
+    "page": "riskcontrol/rtpSettings/PlayerLevel.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F251",
+    "title": "玩家评分设定",
+    "page": "riskcontrol/rtpSettings/PlayerScore.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F252",
+    "title": "RTP配置表单",
+    "page": "riskcontrol/rtpSettings/UpsertRTP.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F253",
+    "title": "RTP分层设置",
+    "page": "riskcontrol/rtpSettings/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F254",
+    "title": "玩家等级设定",
+    "page": "riskcontrol/scriptControl/PlayerLevel.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F255",
+    "title": "玩家评分设定",
+    "page": "riskcontrol/scriptControl/PlayerScore.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F256",
+    "title": "剧本选择",
+    "page": "riskcontrol/scriptControl/ScirptSelect.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F257",
+    "title": "玩家剧本配置表单",
+    "page": "riskcontrol/scriptControl/UpsertUserList.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F258",
+    "title": "剧本风控",
+    "page": "riskcontrol/scriptControl/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F259",
+    "title": "剧本预设表单",
+    "page": "riskcontrol/scriptPreset/UpserScript.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F260",
+    "title": "剧本预设",
+    "page": "riskcontrol/scriptPreset/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F261",
+    "title": "渠道日统计",
+    "page": "riskcontrol/statChannelDay.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      135
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F262",
+    "title": "平台日统计",
+    "page": "riskcontrol/statPlatformDay.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      121
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F263",
+    "title": "留存统计",
+    "page": "riskcontrol/statRetention.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      136
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F264",
+    "title": "用户排名",
+    "page": "riskcontrol/userRanking.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F265",
+    "title": "权重配置",
+    "page": "riskcontrol/weightConfiguration.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F266",
+    "title": "提现打码重置规则",
+    "page": "riskcontrol/withdrawBetResetConfig/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F267",
+    "title": "零充值用户配置",
+    "page": "riskcontrol/zeroRechargeConfiguration.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retired",
+    "target": [],
+    "reason": "2.0退役变更覆盖的旧风控/水池类别，且原页面在交付包缺失。待开发是历史需求标识，不恢复已退役执行器。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F268",
+    "title": "路由容器",
+    "page": "routerHolder.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      319,
+      34,
+      194,
+      298,
+      300,
+      313,
+      35,
+      36,
+      37,
+      38,
+      39,
+      53,
+      70,
+      98,
+      166,
+      167,
+      231
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F269",
+    "title": "扩缩容网关",
+    "page": "scaling/gatewayConfig/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F270",
+    "title": "扩缩容方案管理",
+    "page": "scaling/planManage/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F271",
+    "title": "AWS账号",
+    "page": "serverTools/AwsAccount/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F272",
+    "title": "AWS EC2实例",
+    "page": "serverTools/AwsEC2/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F273",
+    "title": "AWS EC2对比",
+    "page": "serverTools/AwsEC2Compare/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F274",
+    "title": "AWS全球加速",
+    "page": "serverTools/AwsGlobalAccelerator/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F275",
+    "title": "AWS S3存储",
+    "page": "serverTools/AwsS3/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F276",
+    "title": "CDN列表",
+    "page": "serverTools/CDNTool/cdnList.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F277",
+    "title": "CDN工具",
+    "page": "serverTools/CDNTool/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F278",
+    "title": "命令工具",
+    "page": "serverTools/CMDTool/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F279",
+    "title": "域名工具",
+    "page": "serverTools/DomainTool/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F280",
+    "title": "运维工具",
+    "page": "serverTools/OperationsTool/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F281",
+    "title": "配置刷新",
+    "page": "serverTools/RefreshConfig/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F282",
+    "title": "SVN管理",
+    "page": "serverTools/SvnManage/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F283",
+    "title": "配置同步",
+    "page": "serverTools/SyncConfig/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F284",
+    "title": "在线监控",
+    "page": "serverTools/opsServiceMonitor/onlineMonitor/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F285",
+    "title": "广告效果分析",
+    "page": "statistics/adEffectivenessAnalysis/adEffectivenessAnalysis.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      299
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F286",
+    "title": "代理信息统计",
+    "page": "statistics/agentInfoStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      204
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F287",
+    "title": "代理排名",
+    "page": "statistics/agentRankInfo.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      205
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F288",
+    "title": "基础投注统计",
+    "page": "statistics/baseBetStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      179
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F289",
+    "title": "大奖分析",
+    "page": "statistics/bigWinAnalysis/bigWinAnalysis.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      303
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F290",
+    "title": "BUFF统计",
+    "page": "statistics/buffStatistics.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F291",
+    "title": "生命周期游戏统计",
+    "page": "statistics/careerGameStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      170
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F292",
+    "title": "分析刷新菜单",
+    "page": "statistics/common/AnalysisRefreshDropdown.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F293",
+    "title": "昨日对比单元格",
+    "page": "statistics/common/AnalysisYesterdayCell.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F294",
+    "title": "分析对比分组列",
+    "page": "statistics/common/UserAnalysisCompareGroupColumns.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F295",
+    "title": "用户分析指标卡片",
+    "page": "statistics/common/UserAnalysisMetricCards.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F296",
+    "title": "用户分析指标列",
+    "page": "statistics/common/UserAnalysisMetricColumns.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F297",
+    "title": "用户分析指标分组列",
+    "page": "statistics/common/UserAnalysisMetricGroupColumns.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F298",
+    "title": "用户分析总览卡片",
+    "page": "statistics/common/UserAnalysisOverviewCards.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F299",
+    "title": "首充金额分析",
+    "page": "statistics/firstRechargeAmount/firstRechargeAmount.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      168
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F300",
+    "title": "首充行为分析",
+    "page": "statistics/firstRechargeBehavior/firstRechargeBehavior.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      283
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F301",
+    "title": "首充游戏统计",
+    "page": "statistics/firstRechargeGameStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      169
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F302",
+    "title": "首次提现统计",
+    "page": "statistics/firstWithdrawalStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      177
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F303",
+    "title": "末次充值统计",
+    "page": "statistics/lastRechargeStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      173
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F304",
+    "title": "充值金额统计",
+    "page": "statistics/rechargeAmountStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      171
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F305",
+    "title": "充值次数统计",
+    "page": "statistics/rechargeCountStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      175
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F306",
+    "title": "充值次数与余额分析",
+    "page": "statistics/rechargeTimesBalance.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      174
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F307",
+    "title": "充值用户分析",
+    "page": "statistics/rechargeUserAnalysis/rechargeUserAnalysis.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      304,
+      305,
+      306,
+      308,
+      309,
+      310,
+      311,
+      307
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F308",
+    "title": "复充与流失意向分析",
+    "page": "statistics/repurchaseLossIntention/repurchaseLossIntention.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      302
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F309",
+    "title": "风险用户分析",
+    "page": "statistics/riskUserAnalysis/riskUserAnalysis.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      312
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F310",
+    "title": "RTP统计",
+    "page": "statistics/rtpStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      226
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F311",
+    "title": "二次充值统计",
+    "page": "statistics/secondRechargeStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      172
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F312",
+    "title": "分析用户列表弹窗",
+    "page": "statistics/userListDialog.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F313",
+    "title": "提充比分析",
+    "page": "statistics/withdrawRechargeRatio.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      178
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F314",
+    "title": "提现金额统计",
+    "page": "statistics/withdrawalAmountStats.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      176
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F315",
+    "title": "API管理",
+    "page": "superAdmin/api/api.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      6
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F316",
+    "title": "角色权限",
+    "page": "superAdmin/authority/authority.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      4
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F317",
+    "title": "角色API权限",
+    "page": "superAdmin/authority/components/apis.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F318",
+    "title": "角色数据权限",
+    "page": "superAdmin/authority/components/datas.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F319",
+    "title": "角色菜单权限",
+    "page": "superAdmin/authority/components/menus.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F320",
+    "title": "平台管理",
+    "page": "superAdmin/authority/components/platforms.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F321",
+    "title": "数据字典",
+    "page": "superAdmin/dictionary/sysDictionary.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      8
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F322",
+    "title": "字典明细",
+    "page": "superAdmin/dictionary/sysDictionaryDetail.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F323",
+    "title": "超级管理",
+    "page": "superAdmin/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      3
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F324",
+    "title": "组件级联选择",
+    "page": "superAdmin/menu/components/components-cascader.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F325",
+    "title": "菜单图标选择",
+    "page": "superAdmin/menu/icon.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F326",
+    "title": "菜单管理",
+    "page": "superAdmin/menu/menu.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      5
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F327",
+    "title": "操作记录",
+    "page": "superAdmin/operation/sysOperationRecord.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      9
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F328",
+    "title": "系统参数",
+    "page": "superAdmin/params/sysParams.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      31
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F329",
+    "title": "后台管理员",
+    "page": "superAdmin/user/user.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      7
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F330",
+    "title": "系统状态",
+    "page": "system/state.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      23
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F331",
+    "title": "代码生成字段弹窗",
+    "page": "systemTools/autoCode/component/fieldDialog.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F332",
+    "title": "生成代码预览",
+    "page": "systemTools/autoCode/component/previewCodeDialog.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F333",
+    "title": "代码生成器",
+    "page": "systemTools/autoCode/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F334",
+    "title": "代码生成管理",
+    "page": "systemTools/autoCodeAdmin/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F335",
+    "title": "自动打包",
+    "page": "systemTools/autoPkg/autoPkg.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F336",
+    "title": "导出模板",
+    "page": "systemTools/exportTemplate/exportTemplate.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F337",
+    "title": "表单生成",
+    "page": "systemTools/formCreate/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F338",
+    "title": "开发工具",
+    "page": "systemTools/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F339",
+    "title": "插件安装",
+    "page": "systemTools/installPlugin/index.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F340",
+    "title": "插件发布",
+    "page": "systemTools/pubPlug/pubPlug.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F341",
+    "title": "系统工具",
+    "page": "systemTools/system/system.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F342",
+    "title": "广告事件日志",
+    "page": "user/adEventLog/adEventLog.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      129
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F343",
+    "title": "广告事件日志表单",
+    "page": "user/adEventLog/adEventLogForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F344",
+    "title": "重点关注用户",
+    "page": "user/focusUser/focusUser.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      291
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F345",
+    "title": "登录日志",
+    "page": "user/loginLog/loginLog.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      282
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F346",
+    "title": "玩家密码修改弹窗",
+    "page": "user/userInfo/playerUpdatePasswordDialog.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F347",
+    "title": "玩家剧本选择",
+    "page": "user/userInfo/scriptSekect.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "missing_in_package",
+    "target": [],
+    "reason": "原路径在2.0交付包未找到且未确认等价迁移；仅证明包内缺失，不断言线上删除。",
+    "uiStatus": "待开发"
+  },
+  {
+    "id": "F348",
+    "title": "用户资料管理",
+    "page": "user/userInfo/userInfo.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "retained",
+    "target": [
+      49
+    ],
+    "reason": "2.0页面文件与菜单配置均存在，尚未运行验证。",
+    "uiStatus": "2.0保留"
+  },
+  {
+    "id": "F349",
+    "title": "用户资料管理表单",
+    "page": "user/userInfo/userInfoForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F350",
+    "title": "用户统计",
+    "page": "user/userStatistical/userStatistical.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "hidden",
+    "target": [
+      62
+    ],
+    "reason": "2.0源码保留，但菜单配置隐藏；不可称为已删除。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F351",
+    "title": "用户统计表单",
+    "page": "user/userStatistical/userStatisticalForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F352",
+    "title": "用户行为追踪",
+    "page": "user/userTrace/userTrace.vue",
+    "kind": "页面或配置单元",
+    "placeholder": false,
+    "state": "hidden",
+    "target": [
+      52
+    ],
+    "reason": "2.0源码保留，但菜单配置隐藏；不可称为已删除。",
+    "uiStatus": "待核对"
+  },
+  {
+    "id": "F353",
+    "title": "用户行为追踪表单",
+    "page": "user/userTrace/userTraceForm.vue",
+    "kind": "配套组件",
+    "placeholder": false,
+    "state": "source_only",
+    "target": [],
+    "reason": "2.0文件仍在，未直接挂菜单；可能是子组件或未挂载残留。",
+    "uiStatus": "待核对"
+  }
+]
